@@ -13,7 +13,7 @@ public class CanhaoAutonomo : MonoBehaviour
     public float raioInteracao = 4f;
 
     private bool ativo = false;
-    private int indicePonto = 0;
+    private int indicePonto = -90;
     private int direcao = 1;
     private bool esperando = false;
     private Transform jogador;
